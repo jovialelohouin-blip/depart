@@ -11,7 +11,7 @@ const loisirsTexteConverti = Number(loisirsTexte);
 // TODO : calculez le total, le budget restant et budgetRespected.
 const totalDepenses = transportTexteConverti + alimentationTexteConverti + loisirsTexteConverti;
 const budgetRestant = budget - totalDepenses;
-const budgetRespected = budgetRestant >= 0;
+const budgetRespected = budgetRestant >= 0;//type : boolean;
 
 // TODO : affichez le rapport uniquement avec des littéraux de gabarit.
 console.log(`Nom : ${nom}`);
